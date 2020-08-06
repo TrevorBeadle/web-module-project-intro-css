@@ -49,13 +49,25 @@ nav button{
     background-color: #FF764E;
 }
 
+#plan:hover{
+    background-color:#9854bf;
+}
+
 #learn{
     background-color: #5ED3EB;
+}
+
+#learn:hover{
+    background-color:#6bbf54;
 }
 
 #involved{
     background-color: #FFCD69;
     padding:0.5rem 1.8rem;
+}
+
+#involved:hover{
+    background-color:#bf5454;
 }
 
 header article img{
