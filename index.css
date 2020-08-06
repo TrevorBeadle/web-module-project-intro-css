@@ -1,151 +1,140 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-body{
+body {
     font-family: 'Roboto Mono', monospace;
 }
-.container{
-    width:60%;
-    margin:0 auto;
-}
-header{
-    margin:0 2rem 5rem 2rem;
-}
-nav{
-    margin:5% 0 8% 0;
-    text-align:center;
+
+.container {
+    width: 60%;
+    margin: 0 auto;
 }
 
-nav button{
+header {
+    margin: 0 2rem 5rem 2rem;
+}
+
+nav {
+    margin: 5% 0 8% 0;
+    text-align: center;
+}
+
+nav button {
     font-family: 'Roboto Mono', monospace;
     border-radius: 0.6rem;
-    border:0;
+    border: 0;
     margin: 0 9%;
-    width:8.5rem;
-    height:3.5rem;
-    padding:0.5rem 1rem;
-    color:white;
+    width: 8.5rem;
+    height: 3.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
 }
 
-#plan{
+#plan {
     background-color: #FF764E;
 }
 
-#plan:hover{
-    background-color:#9854bf;
+#plan:hover {
+    background-color: #9854bf;
 }
 
-#learn{
+#learn {
     background-color: #5ED3EB;
 }
 
-#learn:hover{
-    background-color:#6bbf54;
+#learn:hover {
+    background-color: #6bbf54;
 }
 
-#involved{
+#involved {
     background-color: #FFCD69;
-    padding:0.5rem 1.8rem;
+    padding: 0.5rem 1.8rem;
 }
 
-#involved:hover{
-    background-color:#bf5454;
+#involved:hover {
+    background-color: #bf5454;
 }
 
-header article img{
-    width:25%;
-    border-radius:50%;
+header article img {
+    width: 25%;
+    border-radius: 50%;
 }
 
-#titleContainer{
-    display:inline-block;
-    text-align:center;
+#titleContainer {
+    display: inline-block;
+    text-align: center;
 }
 
-
-
-#titleContainer p{
-    margin:1rem 0 1rem 0;
+#titleContainer p {
+    margin: 1rem 0 1rem 0;
 }
 
-
-header h1{
+header h1 {
     font-family: 'Chelsea Market', cursive;
     font-size: 3rem;
-
-}
-#firstSection{
-    margin-top:5rem;
 }
 
-#firstSection p{
-    color:white;
-    text-align:center;
+#firstSection {
+    margin-top: 5rem;
+}
+
+#firstSection p {
+    color: white;
+    text-align: center;
     background-color: #DDB9A3;
     padding: 0 1rem 0 1rem;
 }
 
-#firstSection p:first-child{
-    padding-top:1rem;
-    padding-bottom:0.5rem;
-}
-#firstSection p:nth-child(2){
-    padding-bottom:1rem;
+#firstSection p:first-child {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
-#secondSection{
-    margin:3rem 0 3rem 0;
-    text-align:center;
+#firstSection p:nth-child(2) {
+    padding-bottom: 1rem;
 }
 
-#secondSection img{
-    width:10%;
-    height:auto;
-    margin:3rem 0 3rem 0;
+#secondSection {
+    margin: 3rem 0 3rem 0;
+    text-align: center;
 }
 
-#secondSection p{
-    width:30%;
-    margin:0 auto;
-    margin-bottom:3rem;
+#secondSection img {
+    width: 10%;
+    height: auto;
+    margin: 3rem 0 3rem 0;
 }
 
-.bold{
+#secondSection p {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.bold {
     font-weight: bold;
 }
 
-footer{
-    width:100%;
-    background-color:#F9E7DC;
+footer {
+    width: 100%;
+    background-color: #F9E7DC;
 }
 
-footer img{
-    width:100%;
-    height:40rem;
-    object-fit:cover;
-    object-position:top;
+footer img {
+    width: 100%;
+    height: 40rem;
+    object-fit: cover;
+    object-position: top;
 }
 
-footer nav{
-    width:60%;
-    height:10rem;
-    margin:3rem auto;
+footer nav {
+    width: 60%;
+    height: 10rem;
+    margin: 3rem auto;
 }
